@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" class="css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <title>Bon voyage</title>
+</head>
+<body>
+    <header>
+        <h1>Bon voyage!</h1>
+        <form action="">
+            <select class="input" name="Country" id="country">
+                <option value="All-countires">All Countries</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Chile">Chile</option>
+                <option value="Uruguay">Uruguay</option>
+            </select>
+            <input onfocus="this.showPicker()" class="input checkin-date" type="date">
+            <input onfocus="this.showPicker()" class="input checkout-date" type="date">
+            <select class="input" name="Price" id="Price">
+                <option value="All-prices">All prices</option>
+                <option value="$">$</option>
+                <option value="$$">$$</option>
+                <option value="$$$">$$$</option>
+                <option value="$$$$">$$$$</option>
+            </select>
+            <select class="input" name="Size" id="Size">
+                <option value="All-sizes">All sizes</option>
+                <option value="Small">Small</option>
+                <option value="Medium">Medium</option>
+                <option value="Large">Large</option>
+                </select>
+            <button type="reset">Clear</button>
+        </form>
+        <h2>We have found for you...</h2>
+        <p class="summary"></p>
+    </header>
+    <main>
+        
+    </main>
+</body>
+<script type="module" src="/index.js"></script>
+</html>
